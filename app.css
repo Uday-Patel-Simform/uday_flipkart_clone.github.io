@@ -47,6 +47,7 @@ body a {
   text-decoration: none;
   font-style: italic;
 }
+
 .nav_items .logo .logo_plus {
   color: #ffe500;
   font-weight: 500;
@@ -142,6 +143,7 @@ body a {
 .nav_links:hover .dropdown {
   transform: rotate(180deg);
 }
+
 .navbar {
   margin-top: 100px;
 }
@@ -152,7 +154,7 @@ body a {
   color: #fff !important;
 }
 
-.navbar-toggler:focus{
+.navbar-toggler:focus {
   box-shadow: none !important;
 }
 
@@ -239,7 +241,7 @@ body a {
   padding-left: 20px;
 }
 
-.carousel_title .deals_timer{
+.carousel_title .deals_timer {
   justify-content: space-around;
   align-items: center;
 }
@@ -389,12 +391,12 @@ body a {
     width: 75%;
   }
 
-  .main_container .carousal_container .items_slider .row{
+  .main_container .carousal_container .items_slider .row {
     justify-content: space-evenly;
     align-items: center;
   }
 
-  .items_slider .row .col{
+  .items_slider .row .col {
     max-width: 215px !important;
     min-width: 215px !important;
   }
@@ -418,7 +420,7 @@ body a {
 
   .main_container .carousal_container {
     justify-content: center !important;
-}
+  }
 
   .main_container .carousal_container .top_bar_carousel {
     width: 100%;
@@ -427,7 +429,7 @@ body a {
 
   .main_container .carousal_container .side_image {
     display: none;
-}
+  }
 }
 
 @media (max-width: 620px) {
@@ -457,20 +459,21 @@ body a {
     margin-top: 112px;
   }
 
-  .deals_timer{
+  .deals_timer {
     flex-direction: column;
-    align-items:flex-start !important;
+    align-items: flex-start !important;
     justify-content: flex-start !important;
   }
 
-  .carousel_title .deals_timer .top_bar_title{
+  .carousel_title .deals_timer .top_bar_title {
     margin: 0;
   }
 
   .carousel_title .deals_timer .top_bar_icon {
     font-size: 15px;
   }
-  .carousel_title .deals_timer .top_bar_time{
+
+  .carousel_title .deals_timer .top_bar_time {
     font-size: 12px;
   }
 
@@ -478,7 +481,7 @@ body a {
 
 @media (max-width:500px) {
 
-  .items_slider .row .col{
+  .items_slider .row .col {
     max-width: 150px !important;
     min-width: 150px !important;
   }
@@ -486,7 +489,7 @@ body a {
 }
 
 @media (max-width:400px) {
-  .carousel_title .deals_timer .top_bar_title{
+  .carousel_title .deals_timer .top_bar_title {
     font-size: 15px;
   }
 
