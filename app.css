@@ -360,8 +360,8 @@ body a {
   color: #212121;
 }
 
-.items_slider .card:hover .card-img-top {
-  max-height: 105%;
+.items_slider .card:hover .img_container .card-img-top {
+  height: 160px;
 }
 
 .main_container .carousal_container .side_image {
