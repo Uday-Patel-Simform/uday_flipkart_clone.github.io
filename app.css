@@ -203,7 +203,7 @@ body a {
 .catagory_card .dropdown {
   margin-left: 5px;
   font-size: 10px;
-  transition: transform 0.1s, -webkit-transform 0.1s;
+  transition: transform 0.1s;
 }
 
 .col:hover .card_title {
@@ -422,6 +422,7 @@ body a {
 
   .main_container .carousal_container .top_bar_carousel {
     width: 100%;
+    margin: 0;
   }
 
   .main_container .carousal_container .side_image {
