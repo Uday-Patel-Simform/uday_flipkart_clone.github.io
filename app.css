@@ -151,6 +151,7 @@ body a {
 
 .dropdown:hover .dropdown-menu{
   top: 56px;
+  width: 200px;
   display: block !important;
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
   border: none;
